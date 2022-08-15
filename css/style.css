@@ -616,6 +616,11 @@ ul.price__item {
 background-color: #ffffff;
  width: 577px;
  padding: 45px 30px 40px;
+ margin-right: 60px;
+}
+
+ul.price__item + ul.price__item {
+ 
 }
 
 .price__item li {
@@ -636,11 +641,20 @@ margin-bottom: 58px;
 }
 
 .price__item-num {
-  font-family: 'Roboto Condensed';
+font-family: 'Roboto Condensed';
 font-style: normal;
 font-weight: 400;
 font-size: 36px;
 line-height: 40px;
 text-align: center;
+color: #01353E;
+margin: 61px 0 40px;
+}
+
+.price__item-num sup {
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
 color: #01353E;
 }
