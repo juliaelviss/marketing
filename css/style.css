@@ -617,20 +617,12 @@ background-color: #ffffff;
  width: 577px;
  padding: 45px 30px 40px;
  margin-right: 60px;
+ display:flex;
+ flex-direction: column;
 }
 
-ul.price__item + ul.price__item {
- 
-}
-
-.price__item li {
+.price__itemname {
 font-family: 'Roboto Condensed';
-letter-spacing: 0.6px;
-color: #242121;
-}
-
-.price__item-name {
-  font-family: 'Roboto Condensed';
 font-style: normal;
 font-weight: 400;
 font-size: 36px;
@@ -639,6 +631,15 @@ text-align: center;
 color: #01353E;
 margin-bottom: 58px;
 }
+
+.price__li {
+font-family: 'Roboto Condensed';
+letter-spacing: 0.6px;
+color: #242121;
+margin-bottom: 20px;
+}
+
+
 
 .price__item-num {
 font-family: 'Roboto Condensed';
@@ -649,6 +650,9 @@ line-height: 40px;
 text-align: center;
 color: #01353E;
 margin: 61px 0 40px;
+vertical-align: bottom;
+text-align: flex-end;
+align-items: flex-end;
 }
 
 .price__item-num sup {
@@ -658,3 +662,4 @@ font-size: 18px;
 line-height: 22px;
 color: #01353E;
 }
+
