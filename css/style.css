@@ -639,7 +639,11 @@ color: #242121;
 margin-bottom: 20px;
 }
 
-
+.price__block {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
 
 .price__item-num {
 font-family: 'Roboto Condensed';
