@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  
 }
 
 *,
@@ -30,6 +31,7 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  
 }
 
 ul[class] {
@@ -474,14 +476,18 @@ body {
 
 .slider__blog {
   margin-bottom: 200px;
+  
 }
 
-/* .slider__blog-item {
-  padding: 190px 0;
-} */
+.slider__blog-item {
+  padding: 300px 0;
+  
+}
 
 .title__blog {
+  
   text-align: center;
+  justify-content: center;
   margin-bottom: 230px;
 }
 
@@ -489,10 +495,15 @@ body {
   background-image: url('/images/blog-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  height: 800px;
+  background-position: right bottom;
+  margin: 0 calc(-50vw + 40%)
 }
 
 .slider__blog-item {
+  display: flex;
   text-align: end;
+  align-items: flex-end;
 }
 
 .slider__blog-title {
@@ -515,6 +526,7 @@ body {
 .slick-dots {
   display: flex;
   justify-content: center;
+align-items: end;
 }
 
 .slick-dots li + li {
@@ -522,6 +534,7 @@ body {
 }
 
 .slick-dots button {
+  
   width: 15px;
   height: 15px;
   border-radius: 50%;
