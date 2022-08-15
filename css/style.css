@@ -607,7 +607,40 @@ padding: 180px 0 190px;
   margin: 180px 0 190px;
 }
 
-.price__item {
+.price__items {
   display: flex;
   justify-content: space-between;
+}
+
+ul.price__item {
+background-color: #ffffff;
+ width: 577px;
+ padding: 45px 30px 40px;
+}
+
+.price__item li {
+font-family: 'Roboto Condensed';
+letter-spacing: 0.6px;
+color: #242121;
+}
+
+.price__item-name {
+  font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+color: #01353E;
+margin-bottom: 58px;
+}
+
+.price__item-num {
+  font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+color: #01353E;
 }
