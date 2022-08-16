@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  
 }
 
 *,
@@ -31,7 +30,6 @@ blockquote,
 dl,
 dd {
   margin: 0;
-  
 }
 
 ul[class] {
@@ -56,7 +54,7 @@ a {
 
 body {
   min-height: 100vh;
-  
+
   /* font-family: 'Merriweather', serif;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Raleway', sans-serif; */
@@ -67,7 +65,6 @@ body {
   font-style: normal;
   letter-spacing: 0.6px;
   color: #242121;
-
 }
 
 .container {
@@ -478,16 +475,13 @@ body {
 
 .slider__blog {
   margin-bottom: 200px;
-  
 }
 
 .slider__blog-item {
   padding: 300px 0;
-  
 }
 
 .title__blog {
-  
   text-align: center;
   justify-content: center;
   margin-bottom: 230px;
@@ -500,13 +494,11 @@ body {
   height: 800px;
   background-position: right bottom;
   /* margin: 0 calc(-50vw + 40%) */
-  
 }
 
 .slider__blog-item {
-padding-right: 10px;
+  padding-right: 10px;
   text-align: end;
-  
 }
 
 .slider__blog-title {
@@ -516,7 +508,6 @@ padding-right: 10px;
   line-height: 56px;
   letter-spacing: 0.6px;
   color: #ffffff;
- 
 }
 
 .slider__blog-text {
@@ -530,7 +521,7 @@ padding-right: 10px;
 .slick-dots {
   display: flex;
   justify-content: center;
-align-items: end;
+  align-items: end;
 }
 
 .slick-dots li + li {
@@ -538,7 +529,6 @@ align-items: end;
 }
 
 .slick-dots button {
-  
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -551,7 +541,6 @@ align-items: end;
 .slick-dots .slick-active button {
   background-color: #00b2a0;
 }
-
 
 .team {
   padding-bottom: 200px;
@@ -569,7 +558,7 @@ align-items: end;
 }
 
 .team__item + .team__item {
-padding-left: 105px;
+  padding-left: 105px;
 }
 
 .team__photo {
@@ -577,14 +566,14 @@ padding-left: 105px;
 }
 
 .team__name {
-font-family: 'Roboto Condensed';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 18px;
-letter-spacing: 0.6px;
-color: #242121;
-text-align: center;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  color: #242121;
+  text-align: center;
 }
 
 .team__position {
@@ -593,14 +582,13 @@ text-align: center;
 }
 
 .price {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding-bottom: 220px;
 }
 
-
 .title__price {
-text-align: center;
-padding: 180px 0 190px;
+  text-align: center;
+  padding: 180px 0 190px;
 }
 
 .title__price::after {
@@ -614,30 +602,30 @@ padding: 180px 0 190px;
 }
 
 ul.price__item {
-background-color: #ffffff;
- padding: 45px 30px 61px;
- margin-right: 60px;
- display:flex;
- flex-direction: column;
+  background-color: #ffffff;
+  padding: 45px 30px 61px;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
 .price__itemname {
-font-family: 'Roboto Condensed';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 40px;
-text-align: center;
-color: #01353E;
-margin: 46px 0 58px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: #01353e;
+  margin: 46px 0 58px;
 }
 
 .price__li {
-font-family: 'Roboto Condensed';
-letter-spacing: 0.6px;
-color: #242121;
-font-weight: 400;
-margin-bottom: 20px;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 0.6px;
+  color: #242121;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .price__block {
@@ -647,23 +635,22 @@ margin-bottom: 20px;
 }
 
 .price__item-num {
-font-family: 'Roboto Condensed';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 40px;
-text-align: center;
-color: #01353E;
-margin-bottom: 40px;
-
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: #01353e;
+  margin-bottom: 40px;
 }
 
 .price__item-num sup {
   font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-color: #01353E;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #01353e;
 }
 
 .price__item-wrapper {
@@ -675,4 +662,124 @@ color: #01353E;
 
 .price__item-wrapper + .price__item-wrapper {
   margin-left: 60px;
+}
+
+.map {
+  padding: 200px 230px;
+}
+
+.connection {
+  padding-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.title__connection {
+  margin-bottom: 230px;
+}
+
+.connection__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  max-width: 570px;
+}
+
+.form input,
+.form textarea {
+  border: none;
+  border-bottom: 2px solid #dadada;
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  padding: 32px 0;
+  margin-bottom: 16px;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  color: #00b2a0;
+}
+
+.form textarea {
+  resize: none;
+  min-height: 160px;
+}
+
+.form button {
+  border: 1px solid #c4c4c4;
+  padding: 24px 111px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #242121;
+  background-color: #fff;
+  cursor: pointer;
+  margin-top: 70px;
+}
+
+.connection__adress {
+  background-color: #f8f8f8;
+  width: 600px;
+  height: 460px;
+  display: flex;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  color: #242121;
+  flex-direction: column;
+  padding: 49px 270px 70px 52px;
+  margin-bottom: 200px;
+}
+
+.connection__adress p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  align-items: flex-end;
+  letter-spacing: 0.6px;
+  color: #242121;
+  margin-bottom: 60px;
+}
+
+.social-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  color: #242121;
+  cursor: pointer;
+  transition: all 0.6s;
+  margin-bottom: 200px;
+}
+
+.social-link:hover {
+  color: #00b2a0;
+}
+
+.footer {
+  background-color: #00b2a0;
+  height: 200px;
+  position: relative;
+}
+
+.footer__link {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
