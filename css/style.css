@@ -669,7 +669,7 @@ ul.price__item {
 }
 
 .connection {
-  padding-bottom: 200px;
+  /* padding-bottom: 200px; */
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -677,6 +677,7 @@ ul.price__item {
 
 .title__connection {
   margin-bottom: 230px;
+ text-align: center;
 }
 
 .connection__items {
@@ -686,7 +687,8 @@ ul.price__item {
 }
 
 .form {
-  max-width: 570px;
+  width: 570px;
+  margin-right: 30px;
 }
 
 .form input,
@@ -725,7 +727,7 @@ ul.price__item {
   color: #242121;
   background-color: #fff;
   cursor: pointer;
-  margin-top: 70px;
+  margin: 70px 0 200px;
 }
 
 .connection__adress {
@@ -753,7 +755,13 @@ ul.price__item {
   margin-bottom: 60px;
 }
 
+.connection__social {
+  display: flex;
+  justify-content: center;
+}
+
 .social-link {
+  padding-left: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
